@@ -1,0 +1,45 @@
+.home-main-component {
+    position: relative;
+    overflow: hidden;
+}
+
+.home-slider-container {
+    margin-right: -10rem;
+}
+
+.slider-img-div {
+    margin-top: 3rem;
+}
+
+.slider-img-div img {
+    height: 80vh;
+    width: 85%;
+    border-radius: 40px;
+}
+
+.react-multi-carousel-dot-list {
+    position: absolute !important;
+    right: -45rem !important;
+}
+
+@media (max-width: 550px) {
+    .home-main-component {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .home-slider-container {
+        margin-right: -5rem;
+    }
+
+    .slider-img-div img {
+        height: 40vh;
+        width: 90%;
+        border-radius: 20px;
+    }
+
+    .react-multi-carousel-dot-list {
+        position: absolute !important;
+        right: -1rem !important;
+    }
+}

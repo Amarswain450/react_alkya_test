@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Söhne Test";
+  src: url("./fonts/TestSöhne-Extrafett.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

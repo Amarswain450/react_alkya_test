@@ -1,0 +1,65 @@
+.home-container{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    padding: 5rem 0 0 5rem;
+}
+
+.home-logo img{
+    width: 5rem;
+}
+
+.home-heading{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 50px;
+    font-family: "Söhne Test";
+    margin-top: 3rem;
+}
+
+.home-para{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 50px;
+    font-family: "Söhne Test";
+    margin-top: 0.3rem;
+}
+
+.photography-heading,
+.learning-heading{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 50px;
+    font-family: "Söhne Test";
+    margin-top: 1.5rem;
+}
+
+.learning-div{
+    padding: 50px 0;
+}
+
+@media (max-width: 550px) {
+    .home-heading{
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    .home-para{
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .photography-heading,
+    .learning-heading{
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    .learning-div{
+        padding: 30px 0 50px 0;
+    }
+    
+}
